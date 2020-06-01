@@ -6,7 +6,7 @@ SET smenao =
 				WHEN kk.fac in (683, 679, 669, 671, 1, 4, 10) THEN 
 					CASE 
 						WHEN rtrim(vao.aobozn) in ('дха', 'лд') THEN 0 
-						WHEN rtrim(vao.aobozn) in ('лжа', 'уррао', 'урнао', 'юрао', 'юроа', 'роа', 'хаа', 'хта', 'мла', 'пда', 'урра') THEN 1 
+						WHEN rtrim(vao.aobozn) in ('лжа', 'уррао', 'урна', 'урнао', 'юрао', 'юроа', 'роа', 'хаа', 'хта', 'мла', 'пда', 'урра') THEN 1 
 						ELSE 2 - kurs % 2 
 					END
 				WHEN kk.fac = 144 THEN  2 - kurs % 2
