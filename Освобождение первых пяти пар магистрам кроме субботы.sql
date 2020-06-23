@@ -149,17 +149,4 @@ WHERE id_1 in (20812, 20810)
 */
 
 
-SELECT *
-FROM kontkurs
-WHERE obozn like '%ระฬย%'
-
-SELECT *
-FROM wishkontd
-WHERE kont = 22174
---22174
-
-SELECT *
-FROM wishkontdpara
-WHERE wish = 21934
-
 
